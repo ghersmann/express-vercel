@@ -1,4 +1,4 @@
-node_modules# Logs
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -9,11 +9,9 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-coverage
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+
 
 # Editor directories and files
 .vscode/*
@@ -27,7 +25,7 @@ coverage
 
 *.tsbuildinfo
 .vercel
-.env
+.env
 .env.production
 notes.md
 org-index.js
