@@ -27,7 +27,7 @@ const client = new MongoClient(mongoURI, {
     try{
         await client.connect();
     
-         await client.db("admin").command({ ping: 1 });
+         await client.db('herding-cats').command({ ping: 1 });
         console.log(
           "Pinged your deployment. You successfully connected to MongoDB!"
         );
@@ -40,7 +40,7 @@ const client = new MongoClient(mongoURI, {
     run().catch(error => console.log)
 
 app.get('/', (req, res) => {
-  res.send('Hello from Express-vercel!');
+  res.send('Hello from space!');
 });
 
 app.listen(port, () => {
